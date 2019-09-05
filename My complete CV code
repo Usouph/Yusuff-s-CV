@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang= "eng">
+
+<head> 
+	<title> My CV </title>
+	
+     
+    <style >
+          h1{
+          	color:green; 
+          	text-align:center;
+          	font-family:italic;
+          }
+          
+         h1+p {
+          	color:blue; 
+          	text-align:center;
+          	font-family:italic;
+          }
+          
+          
+            h1+p+p{
+          	color:brown; 
+          	text-align:center;
+          	font-family:italic;
+          }
+          h2,h3,h4,h5 {
+          	color:purple; 
+          	text-decoration: underline;
+          	font-size: 18px;
+          }
+          li+ul{
+          	color:orange;
+          }
+          
+          h6{
+          	color: lime; 
+          	text-align:center;
+          	font-family:italic;
+          	font-size: 24px;
+          }
+          form{
+          	colour: gold;
+          	text-align:center;
+          	font-family: Helvetixa;
+          	font-size: 20px;
+          }
+          
+          input {
+    		border: rbg(255, 100, 170, 0.5);
+
+    		border-radious: 10;
+			}
+          
+    </style>
+
+	
+	
+</head>
+	
+	<!--Strcitly a trial from me-->
+
+<body>
+	
+	
+	<h1>OLAYIWOLA YUSUFF OLAYINKA</h1>
+	<p>Ifedapo Amuloko, Ibadan| Lagelu LGA |Oyo state, Nigeria</p>
+	<p>15-05-1992 | +2348146412260 | oyinka155@gmail.com</p>
+	
+	
+	
+	<h2><u>Goal:</u></h2>
+	<ul>
+	<li>Becoming a world-class researcher and academic researching in the field of biomedical science.</li>
+	</ul>
+
+	<h3>Mission Statements:</h3>
+	<p>Researching as an individual and/or with teams of researchers to contribute to:</p>
+	<ul>
+	<li>scientific knowledge, and solve scientific puzzles, especially in the area of biomedical science.</li>
+	<li>the development of humanity, health-wise and to improve on human health.</li>
+	</ul>
+	
+	<h4><u>EDUCATION AND TRAINING:</u></h4>
+	<ul>
+		<li>Master of Science, Biochemistry (Cancer Research and Molecular Biology) 2017-2019</li>
+         	<ul><li> University of Ibadan, Ibadan Nigeria.</li></ul>
+                          
+		<li>National Youth Service Corps (NYSC).                                           2017</li>                                                           
+		<li>Federal Road Safety Corps (via NYSC).                                          2017</li>                                                           
+		<li>Nigeria Red Cross (via NYSC).                                                  2016</li>                                                                             
+   	 <li>Bachelor of Science (Biochemistry).                                             2015</li>                                                                               
+  	  		<ul><li>Federal University of Agriculture Abeokuta, Nigeria</li></ul>
+		<li>West Africa Senior Secondary School Certificate Examination.                   2009</li>                                               
+				<ul><li>Aperin Oniyere Commercial Grammar School, Ibadan.</li></ul>
+		<li>National Examination Coucil.                                                   2008 </li>                                                                                            
+  			  <ul><li>Eleta High School, Ibadan.</li></ul>
+		<li>Primary School Leaving Certificate.                                             2003    </li>                                                                                      
+   			 <ul><li>Christ Church Mapo School 8, Ibadan.</li></ul>
+ 	</ul>
+
+
+	<h5>WORK EXPERIENCE:</h5>
+	<ul>
+		<li>Teaching and Research Assistanceship (via NYSC PPA).                          2017    </li>                                          
+      		 <ul><li> Biochemistry Department, Ambrose Alli University, Ekpoma Edo State.</li></ul>
+		<li>Science-subject Classroom Teacher.                                             2016    </li>                                                                               
+     	 	 <ul><li>Tender Care College, Amuloko Ibadan.</li></ul>
+		<li>Laboratory Scientist/Assistant Researcher (Internship).                         2015</li>
+       		<ul><li>Institute for Advanced Medical Research and Training, College of Medicine, University of Ibadan, Ibadan. Advanced Medical Research and Training, College of Medicine, University of Ibadan, Ibadan.</li></ul>
+
+	</ul>
+	
+	
+	<form name="contactForm" onsubmit="return validateForm()" action="" method="post">
+            <h2>Contact Form</h2>
+            <div class="row">
+            <label>Full Name</label>
+            <input type="text" name="name" minlenght="4"> 
+            <div class="error" id="nameErr"></div>
+            </div>
+            <div class="row">
+            <label>Email Address</label>
+            <input type="text" name="email">
+            <div class="error" id="emailErr"></div>
+            </div>
+            <div class="row">
+            <label>Title</label>
+            <input type="text" name="title" minlenght="4">
+            <div class="error" id="titleErr"></div>
+            </div>
+            <div class="row">
+            <label >Your message:</label>
+            <textarea id="message" name="message" rows="7" cols="40" minlenght="20"></textarea>
+            <div class="error" id="messageErr"></div>
+            </div>     
+            <div class="row">
+            <input type="submit" value="Submit">
+            </div>
+      </form>
+	
+</body>
+</html>
+    
+    
+    
